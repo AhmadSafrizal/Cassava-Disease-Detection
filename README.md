@@ -2,7 +2,7 @@
 Bangkit capstone project
 
 # Description
-We use 2 GCP services to implement machine learning deployment, namely cloud function and google cloud storage
+We use 3 GCP services to implement machine learning deployment, namely cloud function and google cloud storage, and firestore. Cloud function handle the HTTP request call from android app, cloud storage stores the ML model, and firestore for database user.
 
 # Requirements
 1. tensorflow
